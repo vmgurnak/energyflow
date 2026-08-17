@@ -1,0 +1,18 @@
+/* -----------CONTAINER------------ */
+
+.container {
+  max-width: 375px;
+  padding-inline: 20px;
+  padding-block: 20px;
+  margin-inline: auto;
+
+  @media (min-width: 768px) {
+    max-width: 768px;
+    padding-inline: 16px;
+    padding-block: 16px;
+  }
+
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}

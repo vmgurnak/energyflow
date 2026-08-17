@@ -1,0 +1,7 @@
+@import 'modern-normalize';
+
+@import '../styles/variables.css';
+@import '../styles/reset.css';
+@import '../styles/global.css';
+@import '../styles/container.css';
+@import '../styles/utils.css';

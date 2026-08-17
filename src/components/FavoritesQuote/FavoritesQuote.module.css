@@ -1,0 +1,65 @@
+.favoritesQuoteSection {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 16px;
+
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    row-gap: 0;
+  }
+}
+
+/* -------------favorites-quote-img------------- */
+
+.favoritesQuoteImg {
+  height: 272px;
+  border-radius: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* Mobile screen */
+  background-image: url(/img/favorites-section/fav-mobile.png);
+
+  /* retina mobile screen */
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(/img/favorites-section/fav-mobile@2x.png);
+  }
+
+  /* Tablet screen */
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    height: 302px;
+    border-radius: 50px;
+    background-image: url(/img/favorites-section/fav-tablet.png);
+
+    /* retina tablet screen */
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/img/favorites-section/fav-tablet@2x.png);
+    }
+  }
+
+  /* PC screen */
+  @media screen and (min-width: 1440px) {
+    width: 352px;
+    height: 302px;
+    background-image: url(/img/favorites-section/fav-desktop.png);
+
+    /* retina tablet screen */
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(/img/favorites-section/fav-desktop@2x.png);
+    }
+  }
+}

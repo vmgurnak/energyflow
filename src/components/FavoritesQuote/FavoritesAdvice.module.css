@@ -1,0 +1,42 @@
+/* -------------info-advice------------- */
+
+.favoritesAdvice {
+  height: 272px;
+  padding: 96px 101px;
+  border-radius: 30px;
+  background-color: var(--white-color);
+
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    height: 302px;
+    border-radius: 50px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 352px;
+    height: 302px;
+  }
+}
+
+.favoritesAdviceImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+  margin-bottom: 15px;
+}
+
+.favoritesAdviceTime {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #1b1b1b;
+  margin-bottom: 6px;
+}
+.favoritesAdviceText {
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(27, 27, 27, 0.6);
+}
