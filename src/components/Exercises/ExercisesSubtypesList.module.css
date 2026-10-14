@@ -1,0 +1,27 @@
+.exercisesTypesList {
+  height: 1996px;
+  margin-bottom: 20px;
+  overflow: scroll;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+
+    height: 1570px;
+    margin-bottom: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    row-gap: 40px;
+    column-gap: 20px;
+    height: 830px;
+  }
+}
+
+.emptyMessage {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}

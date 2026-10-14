@@ -1,0 +1,33 @@
+.exercisesSection {
+  margin-bottom: 20px;
+  padding: 40px 20px;
+  border-radius: 30px;
+  height: 2252px;
+  background-color: var(--light-gray-color);
+
+  @media screen and (min-width: 768px) {
+    padding: 64px 48px;
+    border-radius: 50px;
+    height: 1918px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    height: 1178px;
+  }
+}
+
+.exercisesTitle {
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b1b1b;
+
+  @media screen and (min-width: 768px) {
+    font-size: 44px;
+    line-height: 1.09;
+    margin-bottom: 32px;
+  }
+}

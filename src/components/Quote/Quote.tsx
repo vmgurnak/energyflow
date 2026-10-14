@@ -1,6 +1,6 @@
-import QuoteDay from './QuoteDay';
-
 import clsx from 'clsx';
+
+import QuoteDay from './QuoteDay';
 
 import styles from './Quote.module.css';
 
